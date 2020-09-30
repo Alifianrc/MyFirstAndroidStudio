@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".InfoActivity3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity 3"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Nama       : "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_institut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:text="Institusi   : "
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Masukkan Nama"
+        android:inputType="text"
+        android:textSize="18sp"  />
+
+    <EditText
+        android:id="@+id/ed_institut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Masukkan Institusi"
+        android:inputType="text"
+        android:textSize="18sp"  />
+
+    <Button
+        android:id="@+id/btn_pindah_tanpa_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Pindah Activity 1 Tanpa Data" />
+
+    <Button
+        android:id="@+id/btn_pindah_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pindah Activity 1 Dengan Data" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:text="Back To Menu" />
+
+</LinearLayout>
